@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+header {
+    width: 100vw;
+    background-color: blueviolet;
+    height: 10vh;
+}
+main {
+    font-family: 'Comfortaa', cursive;
+    background-image: url('pictures/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#button {
+    background-color: aqua;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    font-size: 45px;
+}
+.mainpanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainpanel h1 {
+    margin: 0;
+    font-size: 50px;
+}
+.mainpanel p{
+    font-size: 35px;
+}
+.mainpanel, .for-girls {
+    width: 94vw;
+    height: 100vh;
+}
+.bar{
+    padding-top: 20px;
+    display:inline-block;
+    cursor: pointer;
+    
+}
+.cell{
+    display:inline-block;
+    width: 28px;
+    height: 24px;
+    margin: -3px;
+    padding: 0;
+    background: red;
+}  
+.for-girls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.girl {
+    width: 85%;
+    height: 90%;
+}
+.health-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#health-counter {
+    padding: 5px;
+}
